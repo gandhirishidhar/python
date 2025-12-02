@@ -1,0 +1,34 @@
+a= "rishi is a good boy\nand not a bad boy\n with good eyes"
+print(a)# Escape Sequences in Strings
+# \n - Newline
+print("Line 1\nLine 2")
+
+# \t - Tab
+print("Name\tAge\nRishi\t25")
+
+# \r - Carriage Return
+print("Hello\rWorld")  # World overwrites Hello
+
+# \\ - Backslash
+print("Path: C:\\Users\\rishi\\Desktop")
+
+# \" - Double Quote
+print("He said \"Hello\"")
+
+# \' - Single Quote
+print('It\'s a beautiful day')
+
+# \b - Backspace
+print("Hello\bWorld")  # Removes one character
+
+# \f - Form Feed
+print("Page1\fPage2")
+
+# \v - Vertical Tab
+print("Line1\vLine2")
+
+# \0 - Null Character
+print("Hello\0World")
+
+# Raw String (r prefix) - ignores escape sequences
+print(r"Path: C:\Users\rishi\Desktop")
