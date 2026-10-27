@@ -1,0 +1,6 @@
+b = (1, 2, 3, 4, 5)
+print (type (b))
+a= (1,12,4,4,667,"rohan", "gandhi", False, 5.6)
+print (a)
+no = a.count(667)
+print(no)
