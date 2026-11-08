@@ -3,6 +3,6 @@ n = int(input ( "ENTER a number : "))
 
 i = 1
 
-while (i<11):
+while (i<11):25
     print(f"{n} X {i} = {n * i}")
     i += 1
